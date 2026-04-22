@@ -1,26 +1,102 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* COLORS */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --navy: #0b1f3a;
+  --gold: #d4af37;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* BUTTON */
+.btn {
+  @apply bg-yellow-400 text-black px-6 py-3 rounded shadow hover:scale-105 transition;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* SECTION TITLE */
+.title {
+  @apply text-3xl md:text-4xl font-bold text-center mb-10;
+}
+
+/* CARD */
+.card {
+  @apply bg-white p-6 rounded-xl shadow-lg text-center hover:scale-105 transition;
+}
+
+/* WAVE */
+.wave {
+  height: 120px;
+  background: url("/wave.jpg");
+  background-size: cover;
+  animation: waveMove 10s linear infinite;
+}
+
+@keyframes waveMove {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 1000px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* SHIP */
+@keyframes shipMove {
+  0% {
+    left: -150px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.ship {
+  position: absolute;
+  bottom: 20px;
+  animation: shipMove 15s linear infinite;
+}
+
+video {
+  animation: zoom 20s ease-in-out infinite alternate;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes scrollX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scrollX 20s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
 }
