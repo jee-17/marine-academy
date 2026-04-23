@@ -34,8 +34,8 @@ export default function Home() {
       <Announcements />
       <StudentTestimonials />
       <CTA />
-      <WhatsApp />
       <Footer />
+      <WhatsApp />
     </>
   );
 }
