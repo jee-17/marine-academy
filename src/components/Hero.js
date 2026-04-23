@@ -57,7 +57,7 @@ import { FaStar, FaAward, FaGlobe } from "react-icons/fa";
 // }
 export default function Hero() {
   return (
-    <div className="relative h-[80vh] md:h-screen">
+    <div className="relative h-[80vh] md:h-screen overflow-x-hidden">
       <video
         autoPlay
         muted
