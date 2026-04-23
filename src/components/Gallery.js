@@ -3,10 +3,22 @@
 import Image from "next/image";
 
 const images = [
-  { src: "/voc-trust-meeting.jpeg", title: "Board Meeting" },
-  { src: "/Kallamozhi meeting.jpeg", title: "Seminar Session" },
-  { src: "/honoring.jpg", title: "Campus Event" },
-  { src: "/Eco friendly campus.jpg", title: "Eco Friendly Campus" },
+  {
+    src: "/voc-trust-meeting.jpeg",
+    title: "To meet VOC Port Trust Chairman Mr.Susanta Kumar Purohit, IRSEE ",
+  },
+  {
+    src: "/Kallamozhi meeting.jpeg",
+    title: "Kallamozhi Meeting",
+  },
+  {
+    src: "/honoring.jpg",
+    title: "Bishop Honors with Mr.Micheal Motha",
+  },
+  {
+    src: "/Eco friendly campus.jpg",
+    title: "Eco Friendly Campus",
+  },
 ];
 
 export default function Gallery() {

@@ -16,11 +16,13 @@ export default function TopBar() {
         {/* RIGHT */}
         <div className="flex gap-4 items-center ml-auto">
           <a
-            href="mailto:info@marineacademy.com"
+            href="mailto:sfxmaritimekuthenkuly@gmail.com"
             className="flex items-center gap-1 md:gap-2"
           >
             <FaEnvelope className="text-xs" />
-            <span className="hidden sm:inline">info@marineacademy.com</span>
+            <span className="hidden sm:inline">
+              sfxmaritimekuthenkuly@gmail.com
+            </span>
           </a>
 
           <a

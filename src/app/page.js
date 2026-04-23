@@ -12,6 +12,7 @@ import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import WhatsApp from "@/components/WhatsApp";
+import StudentTestimonials from "@/components/StudentTestimonials";
 
 export default function Home() {
   return (
@@ -24,13 +25,14 @@ export default function Home() {
 
       <Hero />
       <Stats />
+      <Testimonials />
       <Wave />
       <Story />
       <Gallery />
       <Features />
       {/* <VideoSection /> */}
       <Announcements />
-      <Testimonials />
+      <StudentTestimonials />
       <CTA />
       <WhatsApp />
       <Footer />

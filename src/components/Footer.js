@@ -1,4 +1,6 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,10 +8,26 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-10">
         {/* LOGO + ABOUT */}
         <div>
-          <h2 className="text-xl font-bold mb-4">St. Francis Xavier</h2>
+          {/* LOGO */}
+          <div className="mb-4">
+            <Image
+              src="/logo.jpg"
+              alt="Marine Academy Logo"
+              width={180}
+              height={60}
+              className="w-auto h-12 md:h-14 object-contain"
+            />
+          </div>
+
+          {/* NAME */}
+          <h2 className="text-lg font-semibold mb-2">
+            St. Francis Xavier Marine Academy
+          </h2>
+
+          {/* DESCRIPTION */}
           <p className="text-sm text-gray-300">
-            Marine Academy providing world-class maritime education and global
-            career opportunities.
+            Providing world-class maritime education and global career
+            opportunities for future seafarers.
           </p>
         </div>
 
@@ -37,9 +55,18 @@ export default function Footer() {
         {/* CONTACT */}
         <div>
           <h3 className="font-semibold mb-4">Contact</h3>
-          <p className="text-sm text-gray-300">📍 Chennai, India</p>
-          <p className="text-sm text-gray-300">📞 +91 9876543210</p>
-          <p className="text-sm text-gray-300">✉ info@marineacademy.com</p>
+          <p className="text-sm text-gray-300">
+            <FaMapMarkerAlt className="inline mr-2" />
+            Chennai, India
+          </p>
+          <p className="text-sm text-gray-300">
+            <FaPhoneAlt className="inline mr-2" />
+            +91 9876543210
+          </p>
+          <p className="text-sm text-gray-300">
+            <FaEnvelope className="inline mr-2" />
+            sfxmaritimekuthenkuly@gmail.com
+          </p>
 
           {/* SOCIAL */}
           <div className="flex gap-4 mt-4 text-xl">

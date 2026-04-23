@@ -18,11 +18,14 @@ export default function Story() {
         transition={{ duration: 1 }}
       >
         <h2 className="text-3xl font-bold mb-4">
-          Excellence in Marine Education
+          Excellence in Marine Education in Thoothukudi
         </h2>
         <p>
-          Our academy trains future maritime leaders with world-class facilities
-          and real ship exposure.
+          St. Francis Xavier Maritime academy is a new venture in the annals of
+          the Catholic diocese of Thoothukudi, Tamilnadu. The educational
+          institution is constructed as a centennial monument and dedicated for
+          the fisherfolk community mainly on the Coromandel coast. It has aimed
+          to commence the courses in the near future.
         </p>
       </motion.div>
     </div>

@@ -69,11 +69,12 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
-          Navigate Your Future at Sea
+          Reaching Nautical Miles in Life
         </h1>
 
         <p className="text-white mb-6 text-sm md:text-lg">
-          Professional Marine Training with Global Certification
+          Navigate Your Future at Sea , Professional Marine Training with Global
+          Certification
         </p>
 
         <button className="bg-yellow-400 px-6 py-3 rounded">

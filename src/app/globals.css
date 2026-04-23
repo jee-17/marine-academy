@@ -7,6 +7,7 @@
 /* COLORS */
 :root {
   --navy: #0b1f3a;
+  --footblue: #1393ba;
   --gold: #d4af37;
 }
 
@@ -94,6 +95,23 @@ video {
 }
 
 .animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
   animation: marquee 20s linear infinite;
 }
 

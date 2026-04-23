@@ -13,7 +13,8 @@ export default function Contact() {
 
         <div className="space-y-4">
           <p>
-            <FaEnvelope className="inline mr-2" /> info@marine.com
+            <FaEnvelope className="inline mr-2" />{" "}
+            sfxmaritimekuthenkuly@gmail.com
           </p>
           <p>
             <FaPhone className="inline mr-2" /> +91 9876543210
