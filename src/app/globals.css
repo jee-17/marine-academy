@@ -10,6 +10,9 @@
   --footblue: #1393ba;
   --gold: #d4af37;
 }
+html, body {
+  overflow-x: hidden;
+}
 
 /* BUTTON */
 .btn {
