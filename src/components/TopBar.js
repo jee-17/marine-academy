@@ -23,22 +23,15 @@ export default function TopBar() {
             className="flex items-center gap-1 md:gap-2"
           >
             <FaEnvelope className="text-xs" />
-            <a
-              href="mailto:sfxmaritimekuthenkuly@gmail.com"
-              className="hidden sm:inline"
-            >
-              <span>sfxmaritimekuthenkuly@gmail.com</span>
-            </a>
+            <span>sfxmaritimekuthenkuly@gmail.com</span>
           </a>
 
           <a
-            href="tel:+919876543210"
+            href="tel:+9186030354289"
             className="flex items-center gap-1 md:gap-2"
           >
             <FaPhone className="text-xs" />
-            <a href="tel:+9186030354289" className="hidden sm:inline">
-              <span>+91 86030354289</span>
-            </a>
+            <span>+91 86030354289</span>
           </a>
         </div>
       </div>
