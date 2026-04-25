@@ -58,14 +58,17 @@ import { FaStar, FaAward, FaGlobe } from "react-icons/fa";
 export default function Hero() {
   return (
     <div className="relative h-[80vh] md:h-screen overflow-x-hidden">
-      <video
-        autoPlay
-        muted
-        loop
-        className="absolute w-full h-full object-cover"
-      >
-        <source src="/ocean.mp4" />
-      </video>
+      <div className="relative h-screen overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/ocean.mp4" type="video/mp4" />
+        </video>
+      </div>
 
       <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">

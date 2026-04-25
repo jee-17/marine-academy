@@ -17,7 +17,7 @@ export const metadata = {
   description:
     "Discover St. Francis Xavier Maritime Academy in Thoothukudi, Tamil Nadu's premier institution for marine education. We offer world-class training, global placements, and a legacy of excellence in maritime studies. Join us to embark on a successful maritime career.  ",
   icons: {
-    icon: "/logo.jpg",
+    icon: "/favicon.ico",
   },
 };
 

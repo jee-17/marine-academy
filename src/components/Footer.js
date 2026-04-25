@@ -11,7 +11,7 @@ export default function Footer() {
           {/* LOGO */}
           <div className="mb-4">
             <Image
-              src="/logo.jpg"
+              src="/logo_01.png"
               alt="Marine Academy Logo"
               width={180}
               height={60}
@@ -57,15 +57,29 @@ export default function Footer() {
           <h3 className="font-semibold mb-4">Contact</h3>
           <p className="text-sm text-gray-300">
             <FaMapMarkerAlt className="inline mr-2" />
-            Chennai, India
+            Don Bosco Campus, Lenssen Nagar, Kuthenkuly, Tirunelveli-627
+            104,Tamil Nadu, India
           </p>
           <p className="text-sm text-gray-300">
             <FaPhoneAlt className="inline mr-2" />
-            +91 9876543210
+            <a href="tel:+9186030354289" className="hover:underline">
+              +91 86030354289
+            </a>
           </p>
           <p className="text-sm text-gray-300">
             <FaEnvelope className="inline mr-2" />
-            sfxmaritimekuthenkuly@gmail.com
+            <a
+              href="mailto:sfxmaritimekuthenkuly@gmail.com"
+              className="hover:underline"
+            >
+              sfxmaritimekuthenkuly@gmail.com
+            </a>
+          </p>
+          <p className="text-sm text-gray-300">
+            <FaEnvelope className="inline mr-2" />
+            <a href="mailto:ajohnsonsdb@gmail.com" className="hover:underline">
+              ajohnsonsdb@gmail.com
+            </a>
           </p>
 
           {/* SOCIAL */}

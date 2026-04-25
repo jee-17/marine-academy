@@ -3,20 +3,34 @@
 export default function Announcements() {
   const announcements = [
     {
-      title: "PhD Admission Open 2026",
-      desc: "Apply now for doctoral programs",
+      title: "Training for General Purpose Rating(GP Ratings)",
+      desc: "Apply now (6 months course)",
     },
     {
-      title: "Marine Engineering Batch 2026",
-      desc: "Limited seats available",
+      title: "Electro Technical Officer(ETO)",
+      desc: "Apply Now (4 months course)",
     },
     {
-      title: "Campus Interview Drive",
-      desc: "Top shipping companies visiting",
+      title: "Basic Safety Training(BST)",
+      desc: "Apply Now (12 Days course)",
     },
     {
-      title: "Scholarship Program",
-      desc: "Merit-based scholarships available",
+      title:
+        "Security Training for Seafarers with Designated Security Duties(STSDSD)",
+      desc: "Apply Now (2 Days course)",
+    },
+    {
+      title: "Refresher Training for Proficiency in FPFF (RFPFF)",
+      desc: "Apply Now (1 Day course)",
+    },
+    {
+      title: "Refresher Training for Proficiency in PST (RPST)",
+      desc: "Apply Now (1 Day course)",
+    },
+    {
+      title:
+        "Basic Training for Oil and Chemical Tanker Cargo Operations (OCTCO)",
+      desc: "Apply Now (6 Days course)",
     },
   ];
 

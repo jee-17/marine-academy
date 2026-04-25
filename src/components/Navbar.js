@@ -11,9 +11,9 @@ export default function Navbar() {
     <nav className="bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 md:px-6 h-20 md:h-24 flex items-center justify-between">
         {/* LOGO */}
-        <div className="flex items-center h-full">
+        <div className="flex items-center h-full gap-2">
           <Image
-            src="/logo.jpg"
+            src="/logo_01.png"
             alt="Logo"
             width={300}
             height={100}
