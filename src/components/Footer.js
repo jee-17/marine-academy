@@ -46,9 +46,18 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Courses</h3>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li>Nautical Science</li>
-            <li>Marine Engineering</li>
-            <li>Diploma Courses</li>
+            <li>Training for General Purpose Ratings</li>
+            <li>Electro Technical Officer(ETO)</li>
+            <li>Basic Safety Training(BST)</li>
+            <li>
+              Security Training for Seafarers with Designed Security
+              Duties(STSDSD)
+            </li>
+            <li>Refresher Training for Proficiency in FPFF(RFPFF)</li>
+            <li>Refresher Training for Proficiency in PST(RPST)</li>
+            <li>
+              Basic Training for Oil and Chemical Tanker Cargo Operations(OCTCO)
+            </li>
           </ul>
         </div>
 
